@@ -13,13 +13,28 @@ In the below task you will:
 3. Deploy a JS that executes the contract functions**
 
 Step1: Deploy Swapper.sol (INSERT WETH CA WHERE APPLICABLE, MENTIONED IN CODE)
+
+
 Step 2: Download the html and js files to a local folder
+
+
 Step 3: Open the UI via VS Code -> Live server extension (it's free) -> Go-Live
+
+
 Step 4: Get a free node URL From Infura or Quicknode - Insert it in the code where mentioned
+
+
 Step 5: If you are on goerli testnet (recommended), keep the WETH Contract address and its ABI handy - Insert it in the code where mentioned
+
+
 Step 6: Setup a Wallet with testnet ETH on it and insert the Private Key in the code where mentioned
+
+
 Step 7: Convert ETH to some amount of WETH to be used for the automated trading (leave some ETH as you will need gas) 
+
+
 Step 8: Insert the swapper CA, it's ABI, WETH CA and its ABI in the code where mentioned
+
 
 That's it, you are ready to go! 
 
@@ -28,7 +43,7 @@ To try it out: Deploy a token on Goerli (covered in prior Learn2Earn Tasks), Add
 **Play with:** 
 - Gas
 - Trying multiple swaps
-- Enhancing code to inculde a swarm (right now set at 1 wallet, expand this to 30 for best results!)
+- Enhancing code to include a swarm (right now set at 1 wallet, expand this to 30 for best results!)
 - Add a reverse swap (Sell)
 
 
