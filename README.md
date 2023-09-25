@@ -8,9 +8,15 @@ This time, we try to build an automated trader that does not require pesky walle
 
 In the below task you will: 
 
-**1. Deploy the swapper contract that allows you to interact with Uniswap Router
-2. Deploy a simple HTML UI that allows the user to interact with it
-3. Deploy a JS that executes the contract functions**
+1. **Deploy the swapper contract that allows you to interact with Uniswap Router**
+
+
+2. **Deploy a simple HTML UI that allows the user to interact with it**
+
+
+3. **Deploy a JS that executes the contract functions**
+
+**How**: 
 
 Step1: Deploy Swapper.sol (INSERT WETH CA WHERE APPLICABLE, MENTIONED IN CODE)
 
