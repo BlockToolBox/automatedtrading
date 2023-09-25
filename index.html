@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Learning to Snipe with Blocktools</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Snipe on Blocktools">
+<meta property="og:description" content="Welcome to BlockTools.org! The place to be for on-chain tech and its various quirks!">
+<meta property="og:image" content="https://pbs.twimg.com/profile_images/1686445150304616461/mEITavvK_400x400.jpg">
+<meta property="og:url" content="https://www.blocktools.org">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="main.css">
+<script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@metamask/onboarding@1.0.1/dist/metamask-onboarding.bundle.js"></script>
+<script src="app.js"></script>
+<link rel="icon" type="image/png" href="assets/Favicon.png">
+
+</head>
+<body class="dark-mode">
+<div>
+    <div class="content" style="margin-top: 10px;"></div>
+    
+    <div class="input-container">
+    <label for="Token Address to be bought:"></label>
+    <input type="text" id="tokenOutAddress" placeholder="Enter Token Address to Buy">
+    </div>
+    
+    <div class="input-container">
+    <label for="Amount of ETH to buy:"></label>
+    <input type="text" id="amountInEth" placeholder="Amount of ETH you want to snipe for">
+    </div>
+    
+    <div class="input-container">
+    <label for="To Address"></label>
+    <input type="text" id="toAddress" placeholder="Where should bought tokens be sent">
+    </div>
+    <button class="approveButton" id="btnApprove" onclick="approveTokens()">APPROVE</button>
+    <button class="submit-button" id="btnBuy" onclick="buyTokens()">BUY</button>
+    <div class="tools3-container">
+        <p class="help-text">READ THE BLOCKPAPER - <a href="https://blockpaper.blocktools.org">HERE</a></p>
+    </div>
+    <div class="logo-container">
+    <a href="https://twitter.com/blocktoolbox"><img id="twitter-logo" src="./assets/twitter.png" alt="Twitter Logo"></a>
+    <a href="https://medium.com/@blocktoolbox"><img id="medium-logo" src="./assets/medium.png" alt="Medium Logo"></a>
+    <a href="https://youtube.com/@blocktoolbox"><img id="youtube-logo" src="./assets/youtube.png" alt="YouTube Logo"></a>
+    </div>
+</div>
+</body>
+</html>
